@@ -40,9 +40,6 @@ Breast Cancer Wisconsin (Diagnostic), loaded with `sklearn.datasets.load_breast_
 
 One test sample is about 0.9 %, so the differences between the MLP variants are within noise. The clear gain is SLP → MLP (missed malignant cases 4 → 1).
 
-## Video
-*Paste your Google Drive / YouTube (unlisted) link here.*
-
 ## Tools
 Python 3, TensorFlow/Keras, scikit-learn, pandas, NumPy, matplotlib, seaborn.
 
