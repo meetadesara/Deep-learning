@@ -61,9 +61,6 @@ UCI: https://archive.ics.uci.edu/dataset/2/adult · Kaggle: https://www.kaggle.c
 
 Main findings: the network overfits after about 10–20 epochs, so many "expected" gains (He init, Adam, BatchNorm) did not show up in 50 fixed epochs. Class weighting raised Recall of >50K from 0.58 to 0.81, and ELU gave the best F1 and ROC-AUC. The final combined model (80 epochs, no Early Stopping) overfits and does worse than the baseline; the next step is to add Early Stopping. Details are in the notebook.
 
-## Video
-*Paste your Google Drive / YouTube (unlisted) link here.*
-
 ## Tools
 Python 3, TensorFlow/Keras, scikit-learn, pandas, NumPy, matplotlib, seaborn.
 
