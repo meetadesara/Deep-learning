@@ -1,0 +1,6 @@
+tensorflow>=2.12.0
+scikit-learn>=1.4.0
+pandas
+numpy
+matplotlib
+seaborn
